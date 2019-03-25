@@ -1,0 +1,1 @@
+# vzdelavani2030.cz
