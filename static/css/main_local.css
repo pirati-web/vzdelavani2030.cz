@@ -1,0 +1,13 @@
+.table-list th { text-align: left }
+.table-list input[type="checkbox"] {margin:0; vertical-align: bottom;}
+
+.messages .msg { 
+    padding: 0.5em;
+    border: 1px solid #bababa;
+}
+.messages .error { background: #ffc9c9;}
+.messages .info { background: #ccffc9;}
+.messages .critical { background: #ff8a5c;}
+
+ul.errorlist { margin:0.1em 0; }
+ul.errorlist li { background: #ffc5b3; list-style: none; margin: 0; padding: 0.2em 0.5em; }
