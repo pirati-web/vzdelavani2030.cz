@@ -97,13 +97,20 @@
         .header-left > * { flex: 1 1 auto; padding: 0.5em; text-align: center;
          }
         .header-logo { padding: 0.5em; height: 74px;  }
-        .header-text { font-family: "Bebas Neue"; font-weight: bold; font-size: 1.7em; }
+        .header-text { font-family: "Bebas Neue"; font-weight: bold; font-size: 1.7em; display: none; }
 
         .header-right { display: flex; flex-wrap: wrap; align-items: center;
             font-family: "Bebas Neue"; font-size: 1.5em;
             font-weight: bold;
             text-transform: uppercase;
         }
+        @media screen and (max-width: 1100px) {
+            .header-right { max-width: 600px; }
+        }
+        @media screen and (max-width: 800px) {
+            .header-right { max-width: 600px; }
+        }
+
         .header-right > div { flex: 1 1 auto;
             white-space: nowrap; padding: 0.25em 0.5em; margin:0; display: inline-block;
             margin: 0.1em; text-align: center;
@@ -286,7 +293,7 @@ Rámcové vzdělávací programy musí stát na pevném základě
 <h3>PROČ JE TO DŮLEŽITÉ?</h3>
 <p>Pokud chceme, aby vzdělávání a výuka na školách reagovaly na potřeby měnící se společnosti, musí být jasně stanoveny cíle a priority, na nichž by měly být rámcové vzdělávací programy postaveny.</p>
 <p>Rámcové vzdělávací programy (RVP), které školám slouží jako východisko pro přípravu školních vzdělávacích programů (ŠVP), v současné době procházejí revizemi. Doposud však nebyly jasně stanoveny cíle ani priority, které jsou pro rámcové vzdělávací programy zásadní, pokud mají být smysluplně nastaveny.</p>
-<p>Cíle a priority, a na nich postavené rámcové vzdělávací programy, by měly být <b>výsledkem otevřeného dialogu</b> s těmi, kdo se na vzdělávání podílí - především se školami a učiteli. Pro jejich stanovení je přitom důležité jasné vymezení role politiků a odborníků tak, aby nebyly pouze politickou proklamací a nedocházelo k jejich neustálé obměně. Cíle a priority musí vycházet z reálné potřeby, nikoliv pouhého přání politiků. Školám musí být garantován dostatečný prostor a svoboda pro způsob jejich naplňování a zároveň musí mít k dispozici podporu, například v podobě  modelového školního vzdělávacího programu, ze kterého mohou vycházet. </p>
+<p>Cíle a priority, a na nich postavené rámcové vzdělávací programy, by měly být <b>výsledkem otevřeného dialogu</b> s těmi, kdo se na vzdělávání podílí - především se školami a učiteli. Pro jejich stanovení je přitom důležité jasné vymezení role politiků a odborníků tak, aby nebyly pouze politickou proklamací a nedocházelo k jejich neustálé obměně. <b>Cíle a priority musí vycházet z reálné potřeby</b>, nikoliv pouhého přání politiků. Školám musí být garantován dostatečný prostor a svoboda pro způsob jejich naplňování a zároveň musí mít k dispozici podporu, například v podobě  modelového školního vzdělávacího programu, ze kterého mohou vycházet. </p>
 <p>Rámcové vzdělávací programy musí být nastaveny tak, aby byl ve výuce podpořen rozvoj gramotností a dovedností, které jsou a budou důležité pro život ve společnosti a profesní život. To vyplývá i z mezinárodního testování čtenářské a matematické gramotnosti, v němž čeští žáci dosahují spíše průměrných až podprůměrných výsledků a vykazují ve srovnání s předchozími roky zhoršení.</p>
 <img src="/static/img/graphs/kapitola_II_01_výsledky_testování_matematické_gramotnosti_PISA.jpg" class="img-text"/>
 <img src="/static/img/graphs/kapitola_II_02_výsledky_testování_čtenářské_gramotnosti_PISA.jpg" class="img-text"/>
@@ -294,8 +301,8 @@ Rámcové vzdělávací programy musí stát na pevném základě
 
 <h3>CO PRO TO TEĎ UDĚLÁME?</h3>
 <ol>
-    <li>Budeme průběžně tlačit Ministerstvo školství, mládeže a tělovýchovy (MŠMT) k tomu, aby se připravila analýza výchozího stavu a byly nastaveny priority a cíle vzdělávání. Rámcové vzdělávací programy musí stát na pevném základě.
-    <li>Budeme podporovat zapojení všech relevantních aktérů do revizí rámcových vzdělávacích programů, včetně široké odborné veřejnosti. Musíme zapojit školy i učitele, aby se do přípravy promítla jejich praxe a zkušenosti. Průběh revizí musí být transparentní.
+    <li>Budeme průběžně tlačit Ministerstvo školství, mládeže a tělovýchovy (MŠMT) k tomu, aby se připravila <b>analýza</b> výchozího stavu a byly nastaveny priority a cíle vzdělávání. Rámcové vzdělávací programy musí stát na pevném základě.
+    <li>Budeme podporovat zapojení všech relevantních aktérů do revizí rámcových vzdělávacích programů, včetně široké odborné veřejnosti. Musíme <b>zapojit školy i učitele</b>, aby se do přípravy promítla jejich praxe a zkušenosti. Průběh revizí musí být transparentní.
     <li>Chceme školám zajistit dostatečnou svobodu při přípravě školních vzdělávacích programů, včetně způsobuů prezentace výsledků.
     <li>Předáme požadavek na zveřejnění výsledků aktivit souvisejících s úpravami rámcových vzdělávacích programů. MŠMT doposud žádné výstupy neposkytlo.
     <li>Budeme průběžně kontrolovat postup prací a žádat o aktuální informace.
@@ -318,14 +325,14 @@ Chceme podpořit rozvoj digitálního vzdělávání
 <p>S dostupností a rozvojem digitálních technologií bude vzdělávání čím dál tím více otevřené. Digitální vzdělávání tak přispěje ke snižování nerovností v přístupu ke vzdělávání a umožní účast na vzdělávání všem. Zároveň podpoří rozmanitost vzdělávacích cest a forem vzdělávání, které již nadále nebudou vázány na konkrétní místo a čas.</p>
 
 <h3>Rozvoj a podpora digitálního vzdělávání na úrovni školy</h3>
-<p>Využívání digitálních technologií a výukových softwarů by mělo být doplňkem běžného vzdělávání. Pozornost musí být zaměřena na vzdělávání a systematickou přípravu učitelů, aby byli schopni využívat digitální technologie ve výuce. V souvislosti s rozvojem digitálního vzdělávání a zkvalitňováním výuky bude třeba zajistit adekvátní vybavení škol výpočetní technikou a hlavně, investovat do otevřené národní databáze digitálních výukových materiálů odpovídající potřebám 21. století. Digitální vzdělávání může být podpořeno také prostřednictvím virtuálních tříd, které zároveň usnadní individuální vzdělávání dětí, doučování, umožní i zapojení rodičů. Virtuální třídy mohou být navíc učiteli využívány jako prostředí pro přípravu výuky v hodinách a pro sdílení dobré praxe, která může být inspiračním zdrojem pro zavádění inovativních metod ve výuce.</p>
+<p>Využívání digitálních technologií a výukových softwarů <b>by mělo být doplňkem</b> běžného vzdělávání. Pozornost musí být zaměřena na vzdělávání a systematickou přípravu učitelů, aby byli schopni využívat digitální technologie ve výuce. V souvislosti s rozvojem digitálního vzdělávání a zkvalitňováním výuky bude třeba <b>zajistit adekvátní vybavení</b> škol výpočetní technikou a hlavně, investovat do otevřené národní databáze digitálních výukových materiálů odpovídající potřebám 21. století. Digitální vzdělávání může být podpořeno také prostřednictvím virtuálních tříd, které zároveň usnadní individuální vzdělávání dětí, doučování, umožní i zapojení rodičů. Virtuální třídy mohou být navíc učiteli využívány jako prostředí pro přípravu výuky v hodinách a pro sdílení dobré praxe, která může být inspiračním zdrojem pro zavádění inovativních metod ve výuce.</p>
 
 <h3>Rozvoj a podpora digitálního vzdělávání na úrovni žáka</h3>
-<p>Elektronické učebnice, multimediální nástroje a výukové hry bude ve výuce běžnou záležitostí. Jejich využívání podpoří rozvoj informatického myšlení a informační gramotnosti, zároveň posílí atraktivitu výuky jako takové a zvýší motivaci žáků ke studiu. Zásadní bude využívání takových metod, které budou rozvíjet schopnosti spojené s analyzováním a řešením problémů, využíváním a kombinováním různých informací a informačních zdrojů. S informačními technologiemi bude brzy pracovat skutečně každý.</p>
+<p>Elektronické učebnice, multimediální nástroje a výukové hry bude ve výuce běžnou záležitostí. Jejich využívání podpoří <b>rozvoj informatického myšlení a informační gramotnosti</b>, zároveň posílí atraktivitu výuky jako takové a zvýší motivaci žáků ke studiu. Zásadní bude využívání takových metod, které budou rozvíjet schopnosti spojené s analyzováním a řešením problémů, využíváním a kombinováním různých informací a informačních zdrojů. S informačními technologiemi bude brzy pracovat skutečně každý.</p>
 
 <h3>CO PRO TO TEĎ UDĚLÁME?</h3>
 <ol>
-    <li>Chceme podpořit využívání otevřených technologií ve školách. Na rozdíl od licencovaného softwaru nebudou otevřené technologie zatěžovat rozpočet škol a poskytnou vyšší garanci technického zabezpečení.
+    <li>Chceme podpořit <b>využívání otevřených technologií</b> ve školách. Na rozdíl od licencovaného softwaru nebudou otevřené technologie zatěžovat rozpočet škol a poskytnou vyšší garanci technického zabezpečení.
     <li>Chceme podpořit platformy pro sdílení digitálních výukových materiálů, příkladů dobré praxe.
     <li>Podpora využívání virtuálních tříd.
 </ol>

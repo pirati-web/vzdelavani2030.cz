@@ -97,13 +97,20 @@
         .header-left > * { flex: 1 1 auto; padding: 0.5em; text-align: center;
          }
         .header-logo { padding: 0.5em; height: 74px;  }
-        .header-text { font-family: "Bebas Neue"; font-weight: bold; font-size: 1.7em; }
+        .header-text { font-family: "Bebas Neue"; font-weight: bold; font-size: 1.7em; display: none; }
 
         .header-right { display: flex; flex-wrap: wrap; align-items: center;
             font-family: "Bebas Neue"; font-size: 1.5em;
             font-weight: bold;
             text-transform: uppercase;
         }
+        @media screen and (max-width: 1100px) {
+            .header-right { max-width: 600px; }
+        }
+        @media screen and (max-width: 800px) {
+            .header-right { max-width: 600px; }
+        }
+
         .header-right > div { flex: 1 1 auto;
             white-space: nowrap; padding: 0.25em 0.5em; margin:0; display: inline-block;
             margin: 0.1em; text-align: center;
@@ -258,7 +265,7 @@ Svoboda volby a rozmanitost ve vzdělávání
 <div class='program-blok'>
 <div class="header">Čeho chceme <span class="pbw"><span class="pbw pb">dos</span>á<span class="pbw pb">hnout</span></span> ?</div>
 
-<p>Se zvyšováním kvality vzdělávání souvisí také rozvíjení jeho rozmanitosti. Vzdělávání musí pružně reagovat na poptávku ze strany veřejnosti a poskytovat různé formy. Musí zohledňovat požadavky společnosti, technologický rozvoj a měnící se kvalifikační požadavky zaměstnavatelů tak, aby vzdělávání poskytovalo vše potřebné pro život v občanské společnosti a zajistilo podmínky pro úspěšné pracovní uplatnění. S rozvojem rozmanitosti vzdělávacího systému tak budou lépe naplněny jeho hlavní funkce ve smyslu osobnostního rozvoje a seberealizace účastníků vzdělávání, podpory principů demokratické a občanské společnosti, zaměstnanosti, konkurenceschopnosti ekonomiky a prosperity společnosti jako takové. Větší rozmanitost vzdělávání zároveň podpoří rovnost v přístupu ke vzdělávání. Nikdo by neměl být znevýhodněn či dokonce předem diskvalifikován.</p>
+<p>Se zvyšováním kvality vzdělávání souvisí také rozvíjení jeho rozmanitosti. Vzdělávání musí pružně reagovat na poptávku ze strany veřejnosti a poskytovat různé formy. Musí zohledňovat požadavky společnosti, technologický rozvoj a měnící se kvalifikační požadavky zaměstnavatelů tak, aby vzdělávání poskytovalo vše potřebné pro život v občanské společnosti a zajistilo podmínky pro úspěšné pracovní uplatnění. <b>S rozvojem rozmanitosti vzdělávacího systému</b> tak budou lépe naplněny jeho hlavní funkce ve smyslu osobnostního rozvoje a seberealizace účastníků vzdělávání, podpory principů demokratické a občanské společnosti, zaměstnanosti, konkurenceschopnosti ekonomiky a prosperity společnosti jako takové. Větší rozmanitost vzdělávání zároveň podpoří rovnost v přístupu ke vzdělávání. Nikdo by neměl být znevýhodněn či dokonce předem diskvalifikován.</p>
 </div>
 
 

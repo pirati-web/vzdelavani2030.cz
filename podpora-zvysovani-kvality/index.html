@@ -97,13 +97,20 @@
         .header-left > * { flex: 1 1 auto; padding: 0.5em; text-align: center;
          }
         .header-logo { padding: 0.5em; height: 74px;  }
-        .header-text { font-family: "Bebas Neue"; font-weight: bold; font-size: 1.7em; }
+        .header-text { font-family: "Bebas Neue"; font-weight: bold; font-size: 1.7em; display: none; }
 
         .header-right { display: flex; flex-wrap: wrap; align-items: center;
             font-family: "Bebas Neue"; font-size: 1.5em;
             font-weight: bold;
             text-transform: uppercase;
         }
+        @media screen and (max-width: 1100px) {
+            .header-right { max-width: 600px; }
+        }
+        @media screen and (max-width: 800px) {
+            .header-right { max-width: 600px; }
+        }
+
         .header-right > div { flex: 1 1 auto;
             white-space: nowrap; padding: 0.25em 0.5em; margin:0; display: inline-block;
             margin: 0.1em; text-align: center;
@@ -258,13 +265,13 @@
 <div class='program-blok'>
 <div class="header">Čeho chceme <span class="pbw"><span class="pbw pb">dos</span>á<span class="pbw pb">hnout</span></span> ?</div>
 
-<p>Pokud chceme mít kvalitní školy, musíme na nich pracovat průběžně. A to nejen ve smyslu zajištění potřebného vybavení, dalšího vzdělávání učitelů a ředitelů škol, ale i ve smyslu jejich hodnocení a poskytování zpětné vazby, která je důležitá pro další posun a rozvoj jejich kvality. Pokud má být hodnocení školy smysluplné, je třeba, aby probíhalo jak na úrovni samotné školy, tak i na úrovni učitelů a žáků, tedy komplexně. </p>
-<p>Smyslem komplexního hodnocení není porovnávání výsledků hodnocení mezi jednotlivými školami a tvorba „žebříčku škol“, ale zpětná vazba a využitelnost výsledků hodnocení pro zlepšování praxe ve školách a ve třídách. Zásadní pak bude i sdílení příkladů dobré praxe a spolupráce mezi školami. Chceme zajistit kvalitu na všech školách v maximální možné míře a pomoci školám v jejich rozvoji.</p>
+<p>Pokud chceme mít kvalitní školy, musíme na nich pracovat průběžně. A to nejen ve smyslu zajištění potřebného vybavení, dalšího vzdělávání učitelů a ředitelů škol, ale i ve smyslu jejich hodnocení a <b>poskytování zpětné vazby</b>, která je důležitá pro další posun a rozvoj jejich kvality. Pokud má být hodnocení školy smysluplné, je třeba, aby probíhalo jak na úrovni samotné školy, tak i na úrovni učitelů a žáků, tedy komplexně. </p>
+<p><b>Smyslem komplexního hodnocení není</b> porovnávání výsledků hodnocení mezi jednotlivými školami ani <b>tvorba „žebříčku škol“</b>, ale zpětná vazba a využitelnost výsledků hodnocení pro zlepšování praxe ve školách a ve třídách. Zásadní pak bude i sdílení příkladů dobré praxe a spolupráce mezi školami. Chceme zajistit kvalitu na všech školách v maximální možné míře a pomoci školám v jejich rozvoji.</p>
 <h3>Hodnocení výsledků vzdělávání na úrovni žáka</h3>
-<p>V ČR není systematicky uplatňováno hodnocení, jehož smyslem je pomoci žákovi v jeho učení. Hodnocení má primárně sloužit jako zpětná vazba žákovi i rodičům, jejímž prostřednictvím bude učitel schopen žáka nasměrovat k lepším studijním výsledkům. Takový způsob hodnocení umožní učiteli dovést žáka na jeho osobní maximum a rozvíjet tak jeho potenciál v maximální možné míře. Chybami se člověk učí! Cíle a obsah výuky by se neměly podřizovat testům. Testy by měly být nástrojem jak lépe zaměřit další práci učitele s žáky.</p>
+<p>V ČR není systematicky uplatňováno hodnocení, jehož smyslem je pomoci žákovi v jeho učení. Hodnocení má primárně sloužit jako zpětná vazba žákovi i rodičům, jejímž prostřednictvím bude učitel schopen žáka nasměrovat k lepším studijním výsledkům. Takový způsob hodnocení <b>umožní učiteli dovést žáka na jeho osobní maximum</b> a rozvíjet tak jeho potenciál v maximální možné míře. Chybami se člověk učí! Cíle a obsah výuky by se neměly podřizovat testům. Testy by měly být nástrojem jak lépe zaměřit další práci učitele s žáky.</p>
 
 <h3>Hodnocení výsledků vzdělávání na úrovni školy</h3>
-<p>Řízení kvality škol musí být založeno na hodnocení naplňování cílů vzdělávání a na hodnocení škol jako prostředí motivujícího ke vzdělávání. Zvyšování kvality závisí na spolupráci všech zainteresovaných stran - ředitelů, zřizovatelů a dalších institucí.</p>
+<p>Řízení kvality škol musí být založeno na hodnocení naplňování cílů vzdělávání a na hodnocení škol jako prostředí motivujícího ke vzdělávání. Zvyšování kvality závisí <b>na spolupráci všech</b> zainteresovaných stran - ředitelů, zřizovatelů a dalších institucí.</p>
 </div>
 
 
@@ -279,21 +286,21 @@ Přijímací zkoušky na SŠ a státní maturita musí vycházet z cílů a obsa
 </ul>
 
 <h3>PROČ JE TO DŮLEŽITÉ?</h3>
-<p>Pokud mají mít testy u přijímacích zkoušek a státní maturity skutečně výpovědní hodnotu, musí jejich zadání vycházet z cílů a obsahu vzdělávání. V současnosti naopak dochází k tomu, že se obsah výuky zadáním testů přizpůsobuje. Navíc chybí jasné zadání toho, co by testy měly měřit a zjišťovat. </p>
+<p>Pokud mají mít testy u přijímacích zkoušek a státní maturity skutečně výpovědní hodnotu, musí jejich zadání vycházet z cílů a obsahu vzdělávání. V současnosti naopak dochází k tomu, že se obsah výuky zadáním testů přizpůsobuje. Navíc <b>chybí jasné zadání</b> toho, co by testy měly měřit a zjišťovat. </p>
 <p>Výsledky přijímacích zkoušek na SŠ i státní maturity lze z dlouhodobého hlediska považovat za neuspokojivé až alarmující, především v matematice. V roce 2018 se průměrné skóre žáků v testu z matematiky u přijímacích zkoušek pohybovalo pouze kolem 36 %. U státní maturity z matematiky neuspělo v prvním řádném termínu 22 % žáků. S ohledem na takové výsledky se lze jen těžko spokojit s tvrzením, že je příčinou pouze nedostatečná připravenost žáků.</p>
 
 <img src="/static/img/graphs/kapitola_IV_01_výsledky_přijímací_zkoušky_na_SŠ.jpg" class="img-text-inline"/>
 <img src="/static/img/graphs/kapitola_IV_02_neúspěšnost_státní_maturita.jpg" class="img-text-inline"/>
 <div class="img-caption-inline">Zdroj: CZVV</div>
 
-<p>Do budoucna musí zadání testů vycházet z toho, co by žáci skutečně měli znát a umět a co je potřebné pro praktický život i profesní uplatnění. Obsah výuky by se přitom neměl zadáním testů přizpůsobovat – výuka má být o vzdělávání, nikoliv o přípravě na testy, která prostor pro vzdělávání omezuje. Zároveň musí být jasně stanoveno, co mají testy konkrétně zjišťovat a jaký je jejich účel. Pouze za takových podmínek docílíme toho, že budou testy smysluplně nastavené a relevantní. V případě státní maturity by navíc testy měly více zohledňovat oborové zaměření žáka – jejich současné zadání zvýhodňuje žáky na gymnáziích.</p>
+<p>Do budoucna musí zadání testů vycházet z toho, co by žáci skutečně měli znát a umět a co je potřebné pro praktický život i profesní uplatnění. Obsah výuky by se přitom neměl zadáním testů přizpůsobovat – výuka má být o vzdělávání, nikoliv o přípravě na testy, která prostor pro vzdělávání omezuje. Zároveň musí být jasně stanoveno, co mají testy konkrétně zjišťovat a jaký je jejich účel. Pouze za takových podmínek docílíme toho, že budou testy <b>smysluplně nastavené a relevantní</b>. V případě státní maturity by navíc testy měly více zohledňovat oborové zaměření žáka – jejich současné zadání zvýhodňuje žáky na gymnáziích.</p>
 <p>V případě státní maturity musí být jasně stanoveno, co stát od maturity očekává. Do budoucna si dokážeme představit scénář, kdy by státní maturita poskytovala pouze doplňující informaci o znalostech žáků, přičemž by mohla probíhat formou adaptivního testování, které lépe reaguje na individuální potřeby a znalosti žáka a umožňuje poskytnutí okamžité zpětné vazby. Garance kvality a připravenost žáka by měly vyplývat ze skutečnosti, že žák úspěšně dokončil poslední ročník maturitního oboru.</p>
-<p>V krátkodobějším horizontu se nabízejí dvě varianty řešení: nastavení rozdílné zkoušky pro všeobecné (gymnaziální) a odborné (profesní) vzdělávání či ponechání společné části zkoušky s tím, že bude kladen větší důraz na základní znalosti a znalosti využitelné v praxi napříč jednotlivými obory. </p>
+<p>V krátkodobějším horizontu se nabízejí dvě varianty řešení: nastavení rozdílné zkoušky pro všeobecné (gymnaziální) a odborné (profesní) vzdělávání či ponechání společné části zkoušky s tím, že bude kladen větší důraz na základní znalosti a <b>znalosti využitelné v praxi</b> napříč jednotlivými obory. </p>
 
 <h3>CO PRO TO TEĎ UDĚLÁME?</h3>
 <ol>
 <li>Připravíme analýzu rizik a dopadů vyplývajících ze současného nastavení státní maturity.
-<li>Na základě výsledků analýzy navrhneme úpravy a vlastní návrh toho, jak by měla státní maturita vypadat.
+<li>Na základě výsledků analýzy <b>navrhneme úpravy a vlastní návrh</b> toho, jak by měla státní maturita vypadat.
 <li>Chceme vytvořit platformu pro veřejnou diskusi ohledně aktuálního nastavení státní maturity a navrhovaných změn.
 <li>Chceme prosadit možnost poskytnutí úrovně „středního vzdělání“ žákům, kteří úspěšně ukončí poslední ročník maturitního studia, ale neuspějí u maturitní zkoušky. Žáci, kteří u státní maturity neuspějí, mají pouze základní vzdělání – jejich šance na pracovní uplatnění je tedy omezená!
 </ol>
@@ -313,7 +320,7 @@ Vrátíme školám opět důvěryhodnost a vážnost
 
 <h3>PROČ JE TO DŮLEŽITÉ?</h3>
 <p>Externí hodnocení škol se v minulosti zaměřovalo především na kontrolu dodržování předpisů. Tento model se pomalu mění. V mnoha případech nicméně není jasné, na čem je hodnocení škol vlastně postaveno. To je potřeba změnit. </p>
-<p>Systém hodnocení škol musí být transparentní. Musí být jasné, na základě jakých kritérií a za pomoci jakých metod hodnocení probíhá - pouze tehdy bude skutečně smysluplné. Hodnocení škol by mělo být komplexní. Je třeba klást důraz na naplňování cílů a obsahu vzdělávání, zohledňovat kvalitu řízení, prostředí školy, hodnocení učitelů a studijní výsledky žáků. Pozornost přitom chceme věnovat všem školám, nechceme se zaměřovat pouze na ty školy, které vykazují nižší úroveň.</p>
+<p><b>Systém hodnocení škol musí být transparentní.</b> Musí být jasné, na základě jakých kritérií a za pomoci jakých metod hodnocení probíhá - pouze tehdy bude skutečně smysluplné. Hodnocení škol by mělo být komplexní. Je třeba klást důraz na naplňování cílů a obsahu vzdělávání, zohledňovat kvalitu řízení, prostředí školy, hodnocení učitelů a studijní výsledky žáků. Pozornost přitom chceme věnovat všem školám, nechceme se zaměřovat pouze na ty školy, které vykazují nižší úroveň.</p>
 <p>Aby bylo hodnocení škol více relevantní, musí být externí hodnocení podpořeno tím, že školy budou samy svou činnost vyhodnocovat. Takový postup lépe zohlední jejich specifika. Zpětná vazba pro další zkvalitňování škol i výuky tak bude více relevantní. Zvyšování kvality škol by mělo být podpořeno doporučením konkrétních kroků.</p>
 
 <img src="/static/img/graphs/kapitola_IV_03_komplexní_hodnocení_schéma.jpg" class="img-text"/>
